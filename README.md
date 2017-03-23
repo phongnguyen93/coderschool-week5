@@ -13,31 +13,23 @@
   - The most common interview questions:
     + Generate all permutations of a given String
     + Substrings of a given String
-    + Determine if one string is a permutation of another
-    + Reversing Strings
-    + Replacements and Deletions
+    + Reversing a given String
+    + Substitution/Replacing specific letters
     + String Compression
-    Will try to solve by myself after.
 - [x] Watch [Memoization and Dynamic Programming](https://www.youtube.com/watch?v=P8Xa2BitN3I) video
   - Fibonaci function has big(O) = O(2^n).
-  - We can improve by memorization with big(O) = O(n).
+  - Memorization can improve with big(O) = O(n)
+  - Memorization is used to prevent duplicate calculation
 - [x] Watch [Anagram Problem Solution](https://www.youtube.com/watch?v=3MwRGPPB4tw) video
-  - 2 strings are called anagrams: same letters, same counts, different orders.
+  - Strings are called anagrams if they are same letters and same counts but have different orders.
 
 **Arrays**
 
 - [ ] Read Sorting Algorithms
-  - I'm sorry but no link at 'Read Sorting Algorithms'. The only sort algorithm I remember is bubble sort. After view below video, I suddenly remember linear sort.
 - [x] Watch [Introduction to Sorting](https://www.youtube.com/watch?v=pkkFqlG0Hds) video
-  - Sort is a very useful feature nowaday.
+  - Sort is improves the readability of that data, at others to be able to search or extract the data
 - [x] Watch [Merge Sort](https://www.youtube.com/watch?v=KF2j-9iSf4Q) video
   - Merge sort using recusion.
-  - Merge(array){
-    Merge(arrayLeft);
-    Merge(arrayRigiht);
-    (Merge(arrayLeft) + Merge(arrayRight)).sortOrder;
-  }
-
 **Coding**
 
 - [x] Set up `exercism` and complete at least 2 exercises using `exercism submit`.
